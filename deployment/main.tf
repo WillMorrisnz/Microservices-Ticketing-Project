@@ -17,7 +17,7 @@ locals {
   private_subnets = ["10.123.3.0/24", "10.123.4.0/24"]
   intra_subnets   = ["10.123.5.0/24", "10.123.6.0/24"]
 
-  cluster_name = "eks-cluster"
+  cluster_name = "my-eks-cluster"
 }
 
 #Retrieve the list of AZs in the current AWS region

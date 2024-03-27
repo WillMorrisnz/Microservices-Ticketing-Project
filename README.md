@@ -1,8 +1,10 @@
 # Microservices Architecture Project
 
+http://adfcd14b75d81470abbe4b3056fb30b5-1454631012.ap-southeast-2.elb.amazonaws.com/
+
 ## Overview
 
-This project is a culmination of the knowledge and skills acquired from a comprehensive <a href="https://www.udemy.com/course/microservices-with-node-js-and-react">Udemy course</a> by Stephen Grider. It focused on architecting large, scalable applications using a collection of microservices. It demonstrates the ability to deploy multi-service applications to the cloud with Docker and Kubernetes, solve concurrency issues in a distributed systems environment, and leverage JavaScript skills to build a complex web application, among other capabilities.
+This project is a culmination of the knowledge and skills acquired from a comprehensive <a href="https://www.udemy.com/course/microservices-with-node-js-and-react">Udemy course</a> by Stephen Grider. In addition to the course I deployed infrastructure using Terraform to AWS EKS across 2 regions to ensure availability, reliability and scalability of the application. While the frontend and functionality of the application are lacking this project is to demonstrate my skillset in devops and application architecture design and I will be taking the learnings from this project and using it as a template going forward to create scalable and reliable applications quickly.
 
 ### What This Project Demonstrates
 
@@ -14,29 +16,12 @@ This project is a culmination of the knowledge and skills acquired from a compre
 - Writing comprehensive tests for each service.
 - Communicating data between services with an event bus.
 - Writing production-level code, with no shortcuts.
+- Terraform and Infrastructure as Code experience
+- AWS cloud and EKS experience
 
 ## Technologies Used
 
 - **Frontend:** React, Next.js, JavaScript
 - **Backend:** Node.js, Express, TypeScript
 - **Databases:** MongoDB, Redis
-- **Deployment:** Docker, Kubernetes
-
-## Course Highlights
-
-This project reflects the depth and complexity of the course content, which included 26 sections, 652 lectures, and over 54 hours of content.
-
-## Project Structure
-
-TODO
-
-## Challenges and Solutions
-
-TODO
-
-## Deployment
-
-TODO
-
-```shell
-TODO
+- **Deployment:** Docker, Kubernetes, Terraform, AWS EKS

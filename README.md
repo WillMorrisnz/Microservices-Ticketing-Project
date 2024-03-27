@@ -6,7 +6,7 @@ http://adfcd14b75d81470abbe4b3056fb30b5-1454631012.ap-southeast-2.elb.amazonaws.
 
 This project is a culmination of the knowledge and skills acquired from a comprehensive <a href="https://www.udemy.com/course/microservices-with-node-js-and-react">Udemy course</a> by Stephen Grider. In addition to the course I deployed infrastructure using Terraform to AWS EKS across 2 regions to ensure availability, reliability and scalability of the application. While the frontend and functionality of the application are lacking this project is to demonstrate my skillset in devops and application architecture design and I will be taking the learnings from this project and using it as a template going forward to create scalable and reliable applications quickly.
 
-## Technologies Used
+### Technologies Used
 
 - **Frontend:** React, Next.js, JavaScript
 - **Backend:** Node.js, Express, TypeScript
@@ -27,7 +27,7 @@ This project is a culmination of the knowledge and skills acquired from a compre
 - AWS cloud and EKS experience
 - Continuous Integration and Continuous Deployment with Github Actions
 
-## Application Features
+### Application Features
 The application is a ticket onselling site 
 - Sign up, Sign in, Sign out (JWT/Cookies)
 - It lets users list tickets for sale

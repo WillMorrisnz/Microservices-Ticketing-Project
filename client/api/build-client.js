@@ -16,7 +16,7 @@ export default ({ req }) => {
     // we are on the server!
     return axios.create({
       baseURL:
-        "http://ingress-nginx-controller.ingress-nginx.svc.cluster.local",
+        "http://adfcd14b75d81470abbe4b3056fb30b5-1454631012.ap-southeast-2.elb.amazonaws.com",
       headers: req.headers,
     });
   } else {

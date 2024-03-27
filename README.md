@@ -18,10 +18,11 @@ This project is a culmination of the knowledge and skills acquired from a compre
 - Writing production-level code, with no shortcuts.
 - Terraform and Infrastructure as Code experience
 - AWS cloud and EKS experience
+- Continuous Integration and Continuous Deployment with Github Actions
 
 ## Technologies Used
 
 - **Frontend:** React, Next.js, JavaScript
 - **Backend:** Node.js, Express, TypeScript
 - **Databases:** MongoDB, Redis
-- **Deployment:** Docker, Kubernetes, Terraform, AWS EKS
+- **Deployment:** Docker, Kubernetes, Terraform, AWS EKS, CI/CD with github actions

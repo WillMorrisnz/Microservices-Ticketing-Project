@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: 297fdaad63ffde522bace5175952062e.gr7.ap-southeast-2.eks.amazonaws.com
+    - host: ticketing.dev
       http:
         paths:
           - path: /api/payments/?(.*)
